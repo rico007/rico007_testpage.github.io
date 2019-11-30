@@ -1,197 +1,164 @@
-[![@coreui angular](https://img.shields.io/badge/@coreui%20-angular-lightgrey.svg?style=flat-square)](https://github.com/coreui/angular)
-[![npm package][npm-coreui-angular-badge]][npm-coreui-angular]
-[![NPM downloads][npm-coreui-angular-download]][npm-coreui-angular]  
-[![@coreui coreui](https://img.shields.io/badge/@coreui%20-coreui-lightgrey.svg?style=flat-square)](https://github.com/coreui/coreui)
-[![npm package][npm-coreui-badge]][npm-coreui]
-[![NPM downloads][npm-coreui-download]][npm-coreui]  
-![angular](https://img.shields.io/badge/angular-^9.0.0%20rc.0-lightgrey.svg?style=flat-square)  
+# [Material Dashboard](https://demos.creative-tim.com/material-dashboard/examples/dashboard.html) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/home?status=Material%20Dashboard,%20a%20free%20Material%20Bootstrap%204%20Admin%20Template%20%E2%9D%A4%EF%B8%8F%20https%3A//bit.ly/2Lyat1Y%20%23bootstrap%20%23material%20%23design%20%23developers%20%23freebie%20%20via%20%40CreativeTim)
 
-[npm-coreui-angular]: https://www.npmjs.com/package/@coreui/angular  
-[npm-coreui-angular-badge]: https://img.shields.io/npm/v/@coreui/angular.png?style=flat-square  
-[npm-coreui-angular-download]: https://img.shields.io/npm/dm/@coreui/angular.svg?style=flat-square  
-[npm-coreui]: https://www.npmjs.com/package/@coreui/coreui
-[npm-coreui-badge]: https://img.shields.io/npm/v/@coreui/coreui.png?style=flat-square
-[npm-coreui-download]: https://img.shields.io/npm/dm/@coreui/coreui.svg?style=flat-square
 
-# CoreUI Free Angular 2+ Admin Template [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?text=CoreUI%20-%20Free%20Bootstrap%204%20Admin%20Template%20&url=https://coreui.io&hashtags=bootstrap,admin,template,dashboard,panel,free,angular,react,vue)
+ ![version](https://img.shields.io/badge/version-2.1.1-blue.svg)  ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/material-dashboard.svg?maxAge=2592000)](https://github.com/creativetimofficial/material-dashboard/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/material-dashboard.svg?maxAge=2592000)](https://github.com/creativetimofficial/material-dashboard/issues?q=is%3Aissue+is%3Aclosed) [![Join the chat at https://gitter.im/NIT-dgp/General](https://badges.gitter.im/NIT-dgp/General.svg)](https://gitter.im/creative-tim-general/Lobby) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
 
-Please help us on [Product Hunt](https://www.producthunt.com/posts/coreui-open-source-bootstrap-4-admin-template-with-angular-2-react-js-vue-js-support) and [Designer News](https://www.designernews.co/stories/81127). Thanks in advance!
 
-Curious why I decided to create CoreUI? Please read this article: [Jack of all trades, master of none. Why Bootstrap Admin Templates suck.](https://medium.com/@lukaszholeczek/jack-of-all-trades-master-of-none-5ea53ef8a1f#.7eqx1bcd8)
+![Product Gif](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-dashboard-html/material-dashboard-free.gif)
 
-CoreUI is an Open Source Bootstrap Admin Template. But CoreUI is not just another Admin Template. It goes way beyond hitherto admin templates thanks to transparent code and file structure. And if that's not enough, let’s just add that CoreUI consists bunch of unique features and over 1000 high quality icons.
+Material Dashboard is a free Material Bootstrap Admin with a fresh, new design inspired by Google's Material Design. We are very excited to introduce our take on the material concepts through an easy to use and beautiful set of components. Material Dashboard was built over the popular Bootstrap framework and it comes with a couple of third-party plugins redesigned to fit in with the rest of the elements.
 
-CoreUI is based on Bootstrap 4 and offers 6 versions: 
-[HTML5 AJAX](https://github.com/coreui/coreui-free-bootstrap-admin-template-ajax), 
-[HTML5](https://github.com/coreui/coreui-free-angular-admin-template), 
-[Angular 2+](https://github.com/coreui/coreui-free-angular-admin-template), 
-[React.js](https://github.com/coreui/coreui-free-react-admin-template), 
-[Vue.js](https://github.com/coreui/coreui-free-vue-admin-template)
- & [.NET Core 2](https://github.com/mrholek/CoreUI-NET).
+Material Dashboard makes use of light, surface and movement. The general layout resembles sheets of paper following multiple different layers, so that the depth and order is obvious. The navigation stays mainly on the left sidebar and the content is on the right inside the main panel.
 
-CoreUI is meant to be the UX game changer. Pure & transparent code is devoid of redundant components, so the app is light enough to offer ultimate user experience. This means mobile devices also, where the navigation is just as easy and intuitive as on a desktop or laptop. The CoreUI Layout API lets you customize your project for almost any device – be it Mobile, Web or WebApp – CoreUI covers them all!
+This product came as a result of users asking for a material dashboard after we released our successful [Material Kit](https://www.creative-tim.com/product/material-kit). We developed it based on your feedback and it is a powerful bootstrap admin dashboard, which allows you to build products like admin panels, content managements systems and CRMs.
+
+Material Dashboard comes with 5 color filter choices for both the sidebar and the card headers (blue, green, orange, red and purple) and an option to have a background image on the sidebar.
+
+Material Dashboard uses a framework built by our friend Federico - Bootstrap Material Design, who did an amazing job creating the backbone for the material effects, animations, ripples and transitions. Big thanks to his team for the effort and forward thinking they put into it.
+
+Special thanks go to:
+- [Robert McIntosh](https://github.com/mouse0270/bootstrap-notify) for the notification system.
+- [Chartist](https://gionkunz.github.io/chartist-js/) for the wonderful charts.
+We are very excited to share this dashboard with you and we look forward to hearing your feedback!
+
 
 ## Table of Contents
 
-- [CoreUI Free Angular 2+ Admin Template ![Tweet](https://twitter.com/intent/tweet?text=CoreUI%20-%20Free%20Bootstrap%204%20Admin%20Template%20&url=https://coreui.io&hashtags=bootstrap,admin,template,dashboard,panel,free,angular,react,vue)](#coreui-free-angular-2-admin-template-tweethttpstwittercomintenttweettextcoreui20-20free20bootstrap20420admin20template20urlhttpscoreuiiohashtagsbootstrapadmintemplatedashboardpanelfreeangularreactvue)
-  - [Table of Contents](#table-of-contents)
-  - [Versions](#versions)
-  - [CoreUI Pro](#coreui-pro)
-  - [Admin Templates built on top of CoreUI Pro](#admin-templates-built-on-top-of-coreui-pro)
-      - [Prerequisites](#prerequisites)
-          - [Node.js](#nodejs)
-          - [Angular CLI](#angular-cli)
-        - [Update to Angular 8](#update-to-angular-8)
-  - [Installation](#installation)
-    - [Clone repo](#clone-repo)
-  - [Usage](#usage)
-  - [What's included](#whats-included)
-  - [Documentation](#documentation)
-  - [Contributing](#contributing)
-  - [Versioning](#versioning)
-  - [Creators](#creators)
-  - [Community](#community)
-    - [Community Projects](#community-projects)
-  - [Copyright and license](#copyright-and-license)
-  - [Support CoreUI Development](#support-coreui-development)
+* [Versions](#versions) 
+* [Demo](#demo)
+* [Quick Start](#quick-start)
+* [Documentation](#documentation)
+* [File Structure](#file-structure)
+* [Browser Support](#browser-support)
+* [Resources](#resources)
+* [Reporting Issues](#reporting-issues)
+* [Technical Support or Questions](#technical-support-or-questions)
+* [Licensing](#licensing)
+* [Useful Links](#useful-links)
+
+
 
 ## Versions
 
-CoreUI is built on top of Bootstrap 4 and supports popular frameworks.
+[<img src="https://s3.amazonaws.com/creativetim_bucket/github/html.png" width="60" height="60" />](https://www.creative-tim.com/product/material-dashboard)[<img src="https://s3.amazonaws.com/creativetim_bucket/github/react.svg" width="60" height="60" />](https://www.creative-tim.com/product/material-dashboard-react)[<img src="https://s3.amazonaws.com/creativetim_bucket/github/vuejs.png" width="60" height="60" />](https://www.creative-tim.com/product/vue-material-dashboard)[<img src="https://s3.amazonaws.com/creativetim_bucket/github/angular.png" width="60" height="60" />](https://www.creative-tim.com/product/material-dashboard-angular2)
 
-* [CoreUI Free Bootstrap Admin Template](https://github.com/coreui/coreui-free-bootstrap-admin-template)
-* [CoreUI Free Bootstrap Admin Template (Ajax)](https://github.com/coreui/coreui-free-bootstrap-admin-template-ajax)
-* [CoreUI Free Angular 2+ Admin Template](https://github.com/coreui/coreui-free-angular-admin-template)
-* 🚧 CoreUI Free .NET Core 2 Admin Template (Available Soon)
-* [CoreUI Free React.js Admin Template](https://github.com/coreui/coreui-free-react-admin-template)
-* [CoreUI Free Vue.js Admin Template](https://github.com/coreui/coreui-free-vue-admin-template)
 
-## CoreUI Pro
 
-* 💪  [CoreUI Pro Bootstrap Admin Template](https://coreui.io/pro/)
-* 💪  [CoreUI Pro Bootstrap Admin Template (Ajax)](https://coreui.io/pro/)
-* 💪  [CoreUI Pro Angular Admin Template](https://coreui.io/pro/angular)
-* 💪  [CoreUI Pro React Admin Template](https://coreui.io/pro/react)
-* 💪  [CoreUI Pro Vue Admin Template](https://coreui.io/pro/vue)
+| HTML | React | Vue | Angular  |
+| --- | --- | --- | ---  |
+| [![Material Dashboard  HTML](https://s3.amazonaws.com/creativetim_bucket/products/50/thumb/opt_md_thumbnail.jpg)](https://www.creative-tim.com/product/material-dashboard)  | [![Material Dashboard  React](https://s3.amazonaws.com/creativetim_bucket/products/71/thumb/opt_mdr_thumbnail.jpg)](https://www.creative-tim.com/product/material-dashboard-react)  | [![Vue Material Dashboard](https://s3.amazonaws.com/creativetim_bucket/products/81/thumb/opt_md_vue_thumbnail.jpg)](https://www.creative-tim.com/product/vue-material-dashboard)  | [![Material Dashboard  Angular](https://s3.amazonaws.com/creativetim_bucket/products/53/thumb/opt_md_angular_thumbnail.jpg)](https://www.creative-tim.com/product/material-dashboard-angular2) 
 
-## Admin Templates built on top of CoreUI Pro
 
-| CoreUI Pro | Prime | Root | Alba | Leaf |
-| --- | --- | --- | --- | --- |
-| [![CoreUI Pro Admin Template](https://coreui.io/assets/img/example-coureui.jpg)](https://coreui.io/pro/angular/)| [![Prime Admin Template](https://coreui.io/assets/img/responsive-prime.png)](https://coreui.io/admin-templates/angular/prime/?support=1)| [![Root Admin Template](https://coreui.io/assets/img/responsive-root.png)](https://coreui.io/admin-templates/angular/root/?support=1)| [![Alba Admin Template](https://coreui.io/assets/img/responsive-alba.png)](https://coreui.io/admin-templates/angular/alba/?support=1)| [![Leaf Admin Template](https://coreui.io/assets/img/responsive-leaf.png)](https://coreui.io/admin-templates/angular/leaf/?support=1)
 
-#### Prerequisites
-Before you begin, make sure your development environment includes `Node.js®` and an `npm` package manager.
+## Demo
 
-###### Node.js
-Angular requires `Node.js` version 8.x or 10.x
+- [Start page](https://demos.creative-tim.com/material-dashboard/examples/dashboard.html)
+- [User profile page](https://demos.creative-tim.com/material-dashboard/examples/user.html)
+- [Tables page ](https://demos.creative-tim.com/material-dashboard/examples/tables.html)
+- [Maps Page](https://demos.creative-tim.com/material-dashboard/examples/map.html)
+- [Notifications page](https://demos.creative-tim.com/material-dashboard/examples/notifications.html)
 
-- To check your version, run `node -v` in a terminal/console window.
-- To get `Node.js`, go to [nodejs.org](https://nodejs.org/).
+[View More](https://demos.creative-tim.com/material-dashboard/examples/dashboard.html).
 
-###### Angular CLI
-Install the Angular CLI globally using a terminal/console window.
-```bash
-npm install -g @angular/cli
-```
 
-##### Update to Angular 8
-Angular 8 requires `Node.js` version 12.x   
-Update guide - see: [https://update.angular.io](https://update.angular.io)
+## Quick start
 
-## Installation
+- `npm i material-dashboard`
+- Clone the repo: `git clone https://github.com/creativetimofficial/material-dashboard.git`.
+- [Download from Github](https://github.com/creativetimofficial/material-dashboard/archive/master.zip).
+- [Download from Creative Tim](https://www.creative-tim.com/product/material-dashboard).
 
-### Clone repo
-
-``` bash
-# clone the repo
-$ git clone https://github.com/coreui/coreui-free-angular-admin-template.git my-project
-
-# go into app's directory
-$ cd my-project
-
-# install app's dependencies
-$ npm install
-```
-
-## Usage
-
-``` bash
-# serve with hot reload at localhost:4200.
-$ ng serve
-
-# build for production with minification
-$ ng build
-```
-
-## What's included
-
-Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
-
-```
-free-angular-admin-template/
-├── e2e/
-├── src/
-│   ├── app/
-│   ├── assets/
-│   ├── environments/
-│   ├── scss/
-│   ├── index.html
-│   └── ...
-├── .angular-cli.json
-├── ...
-├── package.json
-└── ...
-```
 
 ## Documentation
+The documentation for the Material Dashboard is hosted at our [website](https://demos.creative-tim.com/material-dashboard/docs/2.1/getting-started/introduction.html).
 
-The documentation for the CoreUI Free Angularp Admin Template is hosted at our website [CoreUI](https://coreui.io/angular/)
 
-## Contributing
+## File Structure
+Within the download you'll find the following directories and files:
 
-Please read through our [contributing guidelines](https://github.com/coreui/coreui-free-angular-admin-template/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
+```
+material-dashboard/
+├── assets/
+|   ├── css/
+|   |   ├── bootstrap.min.css
+|   |   ├── material-dashboard.css
+|   |   ├── material-dashboard-rtl.css
+|   |   └── demo.css
+|   ├── js/
+|   |   ├── bootstrap-notify.js
+|   |   ├── bootstrap.min.js
+|   |   ├── chartist.min.js
+|   |   ├── demo.js
+|   |   ├── jquery-3.1.0.min.js
+|   |   ├── material-dashboard.js
+|   |   └── material.min.js
+|   ├── sass/
+|   |    ├── md
+|   |    └── material-dashboard.scss
+|   └── img/
+|
+├── documentation/
+├── examples/
 
-Editor preferences are available in the [editor config](https://github.com/coreui/coreui-free-angular-admin-template/blob/master/.editorconfig) for easy use in common text editors. Read more and download plugins at <http://editorconfig.org>.
+```
 
-## Versioning
 
-For transparency into our release cycle and in striving to maintain backward compatibility, CoreUI Free Admin Template is maintained under [the Semantic Versioning guidelines](http://semver.org/).
+## Browser Support
 
-See [the Releases section of our project](https://github.com/coreui/coreui-free-angular-admin-template/releases) for changelogs for each release version.
+At present, we officially aim to support the last two versions of the following browsers:
 
-## Creators
+<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64">
 
-**Łukasz Holeczek**
 
-* <https://twitter.com/lukaszholeczek>
-* <https://github.com/mrholek>
 
-**Andrzej Kopański**
+## Resources
+- Demo: <https://demos.creative-tim.com/material-dashboard/examples/dashboard.html>
+- Download Page: <https://www.creative-tim.com/product/material-dashboard>
+- Documentation: <https://demos.creative-tim.com/material-dashboard/docs/2.1/getting-started/introduction.html>
+- License Agreement: <https://www.creative-tim.com/license>
+- Support: <https://www.creative-tim.com/contact-us>
+- Issues: [Github Issues Page](https://github.com/creativetimofficial/material-dashboard/issues)
+- [Material Kit](https://www.creative-tim.com/product/material-kit?ref=github-md-free) - For Front End Development
 
-* <https://github.com/xidedix>
+## Reporting Issues
 
-## Community
+We use GitHub Issues as the official bug tracker for the Material Dashboard. Here are some advices for our users that want to report an issue:
 
-Get updates on CoreUI's development and chat with the project maintainers and community members.
+1. Make sure that you are using the latest version of the Material Dashboard. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/).
+2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
+3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
 
-- Follow [@core_ui on Twitter](https://twitter.com/core_ui).
-- Read and subscribe to [CoreUI Blog](https://coreui.ui/blog/).
 
-### Community Projects
+## Technical Support or Questions
 
-Some of projects created by community but not maintained by CoreUI team.
+If you have questions or need help integrating the product please [contact us](https://www.creative-tim.com/contact-us) instead of opening an issue.
 
-* [NuxtJS + Vue CoreUI](https://github.com/muhibbudins/nuxt-coreui)
-* [Colmena](https://github.com/colmena/colmena)
 
-## Copyright and license
 
-copyright 2018 creativeLabs Łukasz Holeczek. Code released under [the MIT license](https://github.com/coreui/coreui-free-angular-admin-template/blob/master/LICENSE).
-There is only one limitation you can't re-distribute the CoreUI as stock. You can’t do this if you modify the CoreUI. In past we faced some problems with persons who tried to sell CoreUI based templates.
+## Licensing
 
-## Support CoreUI Development
+- Copyright 2018 Creative Tim (https://www.creative-tim.com/)
 
-CoreUI is an MIT licensed open source project and completely free to use. However, the amount of effort needed to maintain and develop new features for the project is not sustainable without proper financial backing. You can support development by donating on [PayPal](https://www.paypal.me/holeczek), buying [CoreUI Pro Version](https://coreui.io/pro) or buying one of our [premium admin templates](https://genesisui.com/?support=1).
+- Licensed under MIT (https://github.com/creativetimofficial/material-dashboard/blob/master/LICENSE.md)
 
-As of now I am exploring the possibility of working on CoreUI fulltime - if you are a business that is building core products using CoreUI, I am also open to conversations regarding custom sponsorship / consulting arrangements. Get in touch on [Twitter](https://twitter.com/lukaszholeczek).
+
+
+## Useful Links
+
+- [More products](https://www.creative-tim.com/bootstrap-themes) from Creative Tim
+- [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
+- [Freebies](https://www.creative-tim.com/bootstrap-themes/free) from Creative Tim
+- [Affiliate Program](https://www.creative-tim.com/affiliates/new) (earn money)
+
+##### Social Media
+
+Twitter: <https://twitter.com/CreativeTim>
+
+Facebook: <https://www.facebook.com/CreativeTim>
+
+Dribbble: <https://dribbble.com/creativetim>
+
+Google+: <https://plus.google.com/+CreativetimPage>
+
+Instagram: <https://www.instagram.com/CreativeTimOfficial>
+
